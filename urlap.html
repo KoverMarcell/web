@@ -34,11 +34,20 @@
         <br>
         <label for="ido">Kiszállítás ideje</label>
         <br>
-        <input type="datetime" name="ido" id="ido">
+        <input type="date" name="nap" id="nap" placeholder="Nap">
+        <input type="time" name="ido" id="ido" placeholder="Idő">
     </fieldset>
     <fieldset>
         <input type="text" name="kiv" id="kiv">
         <label for="kiv">Egyéb kívánság</label>
+    </fieldset>
+    <fieldset>
+        <select name="fizetes" id="fizetes">
+            <label for="fizetes">Fizetés módja</label>
+            <option value="">Kártya</option>
+            <option value="">Utánvét (Jelenleg nem elérthetó)</option>
+            <a href=""><button type="button">Tovább & fizetés</button></a>
+        </select>
     </fieldset>
 </form>
 </select>
