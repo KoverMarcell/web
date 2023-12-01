@@ -1,4 +1,10 @@
 nav a {
     text-decoration: none;
     color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a:hover {
+    color: ghostwhite;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
