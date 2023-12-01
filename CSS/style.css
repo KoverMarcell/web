@@ -1,7 +1,8 @@
 nav a {
     text-decoration: none;
-    color: darkorange;
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px white;
 }
 nav a:hover {
     color: ghostwhite;
