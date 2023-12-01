@@ -1,6 +1,7 @@
 nav a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    color: indigo;
     text-shadow: 1px white;
 }
 nav a:hover {
