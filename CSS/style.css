@@ -8,4 +8,5 @@ nav a:hover {
     color: ghostwhite;
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
+    transition: 8ms;
 }
