@@ -10,13 +10,10 @@ nav a:hover{
     background-color: black;
 }
 
-#jobb{
-    float: right;
-}
-
 #kozep{
     text-align: center;
     color: rgb(208, 233, 254);
+    margin: auto;
 }
 
 footer{
