@@ -1,12 +1,10 @@
 nav a {
     text-decoration: none;
-    color: indigo;
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(189, 117, 241)
 }
 
-nav a:hover {
-    color: ghostwhite;
-    background-color: black;
+nav a:hover{
+    color: black;
     font-family: 'Times New Roman', Times, serif;
-    transition: 8ms;
+    font-weight: bold;
 }
