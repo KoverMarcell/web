@@ -9,3 +9,18 @@ nav a:hover{
     font-weight: bold;
     background-color: black;
 }
+
+#jobb{
+    float: right;
+}
+
+#kozep{
+    text-align: center;
+    color: rgb(208, 233, 254);
+}
+
+footer{
+    background-color: black;
+    color: rgb(208, 233, 254);
+}
+
