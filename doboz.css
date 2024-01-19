@@ -1,0 +1,28 @@
+#div1{
+ background-color: red;
+ width: 100px;
+ height: 100px;
+ margin: 10px;
+ float: left;
+}
+
+#div2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+   }
+
+#div3{
+    background-color: blue;
+    width: 220px;
+    height: 100px;
+    clear: both;
+    margin: 10px;
+}
+
+#div1:hover , #div2:hover , #div3:hover{
+ transform: scale(1.1);
+ transition: 0.3s;
+}
