@@ -18,7 +18,7 @@
     float: left;
    }
 
-#evsz1:img , #evsz2:img , #evsz3:img , #evsz4:img{
+img{
     width: 256px;
     height: 256px;
 }
