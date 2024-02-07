@@ -18,7 +18,7 @@
     float: left;
    }
 
-img{
+div:img{
     width: 256px;
     height: 256px;
 }
