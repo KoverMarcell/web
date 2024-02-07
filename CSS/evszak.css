@@ -16,7 +16,6 @@
 #evsz4{
     margin: 10px;
     float: left;
-    clear: both;
    }
 
 .kep{
@@ -44,4 +43,15 @@ nav a:hover{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     background-color: black;
+}
+
+#kozep{
+    text-align: center;
+    color: rgb(208, 233, 254);
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    color: rgb(208, 233, 254);
 }
