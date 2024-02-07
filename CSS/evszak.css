@@ -1,5 +1,5 @@
 #evsz1{
-    background: url();
+    background-image: url();
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -7,7 +7,7 @@
    }
 
 #evsz2{
-    background: url();
+    background-image: url();
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -15,7 +15,7 @@
    }
 
 #evsz3{
-    background: url();
+    background-image: url();
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -23,7 +23,7 @@
    }
 
 #evsz4{
-    background: url();
+    background-image: url();
     width: 100px;
     height: 100px;
     margin: 10px;
