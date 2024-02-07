@@ -1,31 +1,29 @@
 #evsz1{
-    background-image: url();
-    width: 256px;
-    height: 256px;
     margin: 10px;
     float: left;
    }
 
 #evsz2{
-    background-image: url();
-    width: 256px;
-    height: 256px;
     margin: 10px;
     float: left;
    }
 
 #evsz3{
-    background-image: url();
-    width: 256px;
-    height: 256px;
-    margin: 256px;
+    margin: 10px;
     float: left;
    }
 
 #evsz4{
-    background-image: url();
-    width: 256px;
-    height: 256px;
     margin: 10px;
     float: left;
    }
+
+#evsz1:img , #evsz2:img , #evsz3:img , #evsz4:img{
+    width: 256px;
+    height: 256px;
+}
+
+p{
+    font-weight: 600;
+    font-family: times;
+}
