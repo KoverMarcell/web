@@ -60,6 +60,7 @@ nav a:hover{
 }
 
 footer{
+    clear: both;
     background-color: black;
     color: rgb(208, 233, 254);
 }
