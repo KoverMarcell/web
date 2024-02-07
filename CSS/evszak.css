@@ -27,3 +27,27 @@ p{
     font-weight: 600;
     font-family: times;
 }
+
+
+footer{
+    background-color: black;
+    color: rgb(208, 233, 254);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(122, 35, 184)
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: black;
+}
+
+#kozep{
+    text-align: center;
+    color: rgb(208, 233, 254);
+    margin: auto;
+}
