@@ -1,11 +1,11 @@
-nav a{
+nav a {
     text-decoration: none;
     color: rgba(77, 226, 144, 0.897)
 }
 
 nav a:hover{
     color: rgb(255, 255, 255);
-    font-family: verdana;
+    font-family: Verdana;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.795);
 }
@@ -17,6 +17,7 @@ nav a:hover{
 }
 
 footer{
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: black;
     color: rgb(208, 254, 227);
 }
+
