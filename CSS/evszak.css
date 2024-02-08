@@ -41,7 +41,7 @@ p{
 
 #evsz1:hover , #evsz2:hover , #evsz3:hover , #evsz4:hover{
     transform: scale(1.1);
-    transition: 1,2s;
+    transition: 2,5s;
    }
 
 
