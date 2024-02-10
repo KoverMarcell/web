@@ -29,3 +29,7 @@ a{
     text-decoration: none;
     color: rgba(77, 226, 144, 0.897)
 }
+
+p{
+    text-shadow: rgba(32, 214, 102, 0.623) 2px;
+}
