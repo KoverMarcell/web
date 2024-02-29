@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+</head>
+<body>
+    
+    <input type="button" value="ÖSSZEADÁS" onclick="osszead()">
+
+    <script>
+        function osszead() {
+            
+            let szam1
+            while (Number,isNaN(szam1)) {
+                szam1 = Number(prompt("Számot adj meg!"))
+            }
+
+            let szam2
+            while (Number,isNaN(szam1)) {
+                szam2 = Number(prompt("Számot adj meg!"))
+            }
+
+            let eredmeny
+            
+            szam1 = Number(prompt("Add meg az első számot!"))
+            szam2 = Number(prompt("Add meg a második számot!"))
+            eredmeny = szam1 + szam2
+            alert("A két szám összege:" + eredmeny)
+        }
+    </script>
+</body>
+</html>
