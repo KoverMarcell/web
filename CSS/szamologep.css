@@ -34,9 +34,7 @@ p{
     text-shadow: rgba(32, 214, 102, 0.623) 2px;
 }
 
-div{
-    border: solid black 1px;
-    width: 340px;
-    height: 340px;
-    float: left;
+div:button{
+    width: 400px;
+    height: 400px;
 }
