@@ -1,0 +1,39 @@
+nav a {
+    text-decoration: none;
+    color: rgba(77, 226, 144, 0.897)
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+#kozep{
+    text-align: center;
+    color: rgb(208, 254, 227);
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    color: rgb(208, 254, 227);
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.959);
+    color: rgb(244, 247, 250);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(77, 226, 144, 0.897)
+}
+
+p{
+    text-shadow: rgba(32, 214, 102, 0.623) 2px;
+}
+
+div{
+    
+}
