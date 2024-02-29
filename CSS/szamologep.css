@@ -35,5 +35,8 @@ p{
 }
 
 div{
-    
+    border: solid black 1px;
+    width: 340px;
+    height: 340px;
+    float: left;
 }
