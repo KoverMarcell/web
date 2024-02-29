@@ -18,6 +18,7 @@ nav a:hover{
 footer{
     background-color: black;
     color: rgb(208, 254, 227);
+    align-content: end;
 }
 
 body{
