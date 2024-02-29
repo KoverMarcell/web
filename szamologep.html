@@ -7,100 +7,91 @@
     <link rel="stylesheet" href="CSS/szamologep.css">
 </head>
 <body>
-
-    <div onclick="osszead()">+</div>
-
+    <div>
+        <input type="button" value="+" onclick="katt()">
+        <input type="button" value="-" onclick="katt2()">
+        <input type="button" value=":" onclick="katt3()">
+        <input type="button" value="x" onclick="katt4()">
+    </div>
+    
     <script>
-        function osszead() {
-            
-            let szam1 ;
-            while (Number,isNaN(szam1)) {
+        function katt() {
+            let szam1 , szam2 , eredmeny ;
+    
+            szam1 = Number(prompt("Első szám")) ;
+            while(Number.isNaN(szam1)) {
                 szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let szam2 ;
-            while (Number,isNaN(szam1)) { 
-                szam2 = Number(prompt("Számot adj meg!")) ;
+           
+    
+            szam2 = Number (prompt("Masodik  szam")) ;
+            while(Number.isNaN(szam2)) {
+             szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let eredmeny ;
-            
-            szam1 = Number(prompt("Add meg az első számot!")) ;
-            szam2 = Number(prompt("Add meg a második számot!")) ;
-            eredmeny = szam1 + szam2 ;
-            alert("A két szám összege:" + eredmeny) ;
+    
+            eredmeny = szam1 + szam2;
+    
+            alert("A két szám összege:" + eredmeny)
         }
     </script>
     
-    <div onclick="kivon()">-</div>
-
     <script>
-        function kivon() {
-            
-            let szam1 ;
-            while (Number,isNaN(szam1)) {
+        function katt2() {
+            let szam1 , szam2 , eredmeny ;
+    
+            szam1 = Number(prompt("Első szám")) ;
+            while(Number.isNaN(szam1)) {
                 szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let szam2 ;
-            while (Number,isNaN(szam1)) { 
-                szam2 = Number(prompt("Számot adj meg!")) ;
+    
+            szam2 = Number (prompt("Masodik  szam")) ;
+            while(Number.isNaN(szam2)) {
+             szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let eredmeny ;
-            
-            szam1 = Number(prompt("Add meg az első számot!")) ;
-            szam2 = Number(prompt("Add meg a második számot!")) ;
-            eredmeny = szam1 - szam2 ;
-            alert("A két szám különbsége:" + eredmeny) ;
+    
+            eredmeny = szam1 - szam2;
+    
+            alert("A két szám különbsége:" + eredmeny)
         }
     </script>
     
-    <div onclick="oszt()">/</div>
-
     <script>
-        function oszt() {
-            
-            let szam1 ;
-            while (Number,isNaN(szam1)) {
+        function katt3() {
+            let szam1 , szam2 , eredmeny ;
+    
+            szam1 = Number(prompt("Első szám")) ;
+            while(Number.isNaN(szam1)) {
                 szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let szam2 ;
-            while (Number,isNaN(szam1)) { 
-                szam2 = Number(prompt("Számot adj meg!")) ;
+    
+            szam2 = Number (prompt("Masodik  szam")) ;
+            while(Number.isNaN(szam2)) {
+             szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let eredmeny ;
-            
-            szam1 = Number(prompt("Add meg az első számot!")) ;
-            szam2 = Number(prompt("Add meg a második számot!")) ;
-            eredmeny = szam1 + szam2 ;
-            alert("Az eredmény:" / eredmeny) ;
+    
+            eredmeny = szam1 / szam2;
+    
+            alert("A két szám hányadosa:" + eredmeny)
         }
     </script>
     
-    <div onclick="(szor)">x</div>
-
     <script>
-        function szor() {
-            
-            let szam1 ;
-            while (Number,isNaN(szam1)) {
+        function katt4() {
+            let szam1 , szam2 , eredmeny ;
+    
+            szam1 = Number(prompt("Első szám")) ;
+            while(Number.isNaN(szam1)) {
                 szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let szam2 ;
-            while (Number,isNaN(szam1)) { 
-                szam2 = Number(prompt("Számot adj meg!")) ;
+    
+            szam2 = Number (prompt("Masodik  szam")) ;
+            while(Number.isNaN(szam2)) {
+             szam1 = Number(prompt("Számot adj meg!")) ;
             }
-
-            let eredmeny ;
-            
-            szam1 = Number(prompt("Add meg az első számot!")) ;
-            szam2 = Number(prompt("Add meg a második számot!")) ;
-            eredmeny = szam1 + szam2 ;
-            alert("Az eredmény:" * eredmeny) ;
+    
+            eredmeny = szam1 * szam2;
+    
+            alert("A két szám szorzata:" + eredmeny)
         }
     </script>
 </body>
