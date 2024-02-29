@@ -34,7 +34,7 @@ p{
     text-shadow: rgba(32, 214, 102, 0.623) 2px;
 }
 
-div:button{
+input{
     width: 900px;
     height: 900px;
     background-color: rgb(32, 214, 102);
