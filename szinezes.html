@@ -2,8 +2,8 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Képlink feladat</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="CSS/stilus.css">
 </head>
 <body>
@@ -18,14 +18,13 @@
         <a href="szamologep.html">SZÁMOLÓGÉP FELADAT</a>
         <a href="szinezes.html">SZÍNEZÉS FELADAT</a>
     </nav>
-    
-    <h1>Képlink feladat</h1>
-<a href="https://hu.wikipedia.org/wiki/Sz%C5%91l%C5%91" target="_blank"><img src="img/szolo-rondo_1.jpg" alt="szőlő" title="Szőlő Wikipédia"></a>
-<hr>
-<footer>
-    <p id="kozep">Kövér Marcell <br>
-        MSzC Kandó Kálmán Informatikai Technikum <br>
-        koverm@kkszki.hu</p>
-</footer>
+
+    <input type="color" name="szin" onchange="asd()" id="szin">
+    <script>
+
+function szinez() {
+    document.body.style.backgroundColor = szin.value
+}
+    </script>
 </body>
 </html>
