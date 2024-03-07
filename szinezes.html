@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/stilus.css">
+    <style>
+        input {
+            height: 400px;
+            width: 400px;
+            display: block;
+            margin: auto;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-family: fantasy;
+            text-align: center;
+            text-shadow: aliceblue 3px;
+        }
+    </style>
 </head>
 <body>
 
@@ -18,12 +33,14 @@
         <a href="szamologep.html">SZÁMOLÓGÉP FELADAT</a>
         <a href="szinezes.html">SZÍNEZÉS FELADAT</a>
     </nav>
+                    <h1>Válaszd ki a színedet</h1>
+    <input type="color" name="szin" onchange="szinez()" id="szin">
 
-    <input type="color" name="szin" onchange="asd()" id="szin">
     <script>
 
 function szinez() {
     document.body.style.backgroundColor = szin.value
+    document.h1.style.color = szin.value
 }
     </script>
 </body>
