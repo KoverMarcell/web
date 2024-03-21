@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Állatok</title>
+</head>
+<body style="background-color: black;">
+    
+    <nav>
+        <a href="index.html">FŐOLDAL</a> |
+        <a href="keplink.html">KÉPLINK FLADAT</a> |
+        <a href="lista.html">LISTA FELADAT</a> |
+        <a href="tablazat.html">TÁBLÁZAT FELADAT</a> |
+        <a href="urlap.html">ŰRLAP FELADAT</a> |
+        <a href="evszak.html">ÉVSZAKOK FELADAT</a> |
+        <a href="szamologep.html">SZÁMOLÓGÉP FELADAT</a> |
+        <a href="szinezes.html">SZÍNEZÉS FELADAT</a>
+    </nav>
+
+
+    <H1 style="text-align: center; color: white;"><i>,,Én azért jöttem ide, hogy lássak állatok!"</i></H1>
+
+        <div>
+            <img src="img/" style="height: 400px; width: 400px; display: block; margin: auto; border: 3px solid white;" id="1_kep" onclick="csere()">
+            <img src="img/" style="height: 400px; width: 400px; display: none; margin: auto; border: 3px solid white;" id="2_kep" onclick="csere0()">
+        </div>
+
+    <script>
+        function csere(){
+            document.getElementById("1_kep").style.display="none"
+            document.getElementById("2_kep").style.display="block"
+        }
+        function csere0(){
+            document.getElementById("1_kep").style.display="block"
+            document.getElementById("2_kep").style.display="none"
+        }
+    </script>
+</body>
+</html>
